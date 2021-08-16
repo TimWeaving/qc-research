@@ -1,7 +1,7 @@
 print('Importing...')
-import CS_VQE.cs_vqe_classes.cs_vqe_circuit as cs_circ
-import CS_VQE.utils.cs_vqe_tools as cs_tools
-import CS_VQE.utils.molecule_tools as mol
+import CSVQE.cs_vqe_classes.cs_vqe_circuit as cs_circ
+import CSVQE.utils.cs_vqe_tools as cs_tools
+import CSVQE.utils.molecule_tools as mol
 print('Finished imports')
 def cs_vqe_test(bond_len, multiplicity, charge, basis, rot_A, num_sim_q, atom1=None, atom2=None, atom3=None):
     """
